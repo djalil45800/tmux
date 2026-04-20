@@ -15,12 +15,14 @@ Personal tmux configuration with custom keybindings, session management, and Tok
 
 1. Clone this repository or copy the files to your `~/.config/tmux/` directory:
    ```bash
-   git clone <repository-url> ~/.config/tmux
+   git clone https://github.com/djalil45800/tmux.git ~/.config/tmux
    ```
 
 2. Ensure the sessionizer script is executable:
    ```bash
    chmod +x ~/.config/tmux/tmux-sessionizer
+
+   mv ~/.config/tmux/tmux-sessionizer ~/.local/bin/tmux-sessionizer
    ```
 
 3. Start tmux to load the configuration automatically
