@@ -94,7 +94,7 @@ Press `Prefix` + `f` to launch the sessionizer, then type to search for your pro
 
 - **Kill entire server:** `tmux kill-server`
 - **Configuration file:** `~/.config/tmux/tmux.conf`
-- **Sessionizer script:** `~/.config/tmux/tmux-sessionizer`
+- **Sessionizer script:** `~/.local/bin/tmux-sessionizer`
 
 ## Files in this configuration
 
